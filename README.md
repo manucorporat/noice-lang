@@ -5,7 +5,7 @@ but a probability distribution.
 
 Noise extracts away the details of the simulation and allows mathematicians to write idiomatic code to deal with random variables.
 
-Monte carlo simulations, queue theory simulations are trivial with Noise.
+Monte Carlo method, queue theory simulations are trivial with Noise.
 
 
 ## Examples
@@ -16,7 +16,7 @@ Y = Y+3*(2+3);
 U = plot(X)
 ```
 
-### Everything is a expression
+### Everything is an expression
 ```
 X + Y
 
@@ -55,7 +55,7 @@ max(x, y) ~ if x > y { x } else { y }
 
 
 ### Calculate PI
-Monte carlo simulation
+Monte Carlo method
 ```
 X ~ unif(-1, 1) ** 2
 Y ~ unif(-1, 1) ** 2
